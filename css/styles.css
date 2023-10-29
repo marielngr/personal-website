@@ -25,3 +25,21 @@ main {
 .links {
     border: 4px solid blue;
 }
+.GitHub {
+    border: 3px dotted lightblue;
+}
+.CodePen {
+    border: 3px dotted lightblue;
+}
+.LinkedIn {
+    border: 3px dotted lightblue;
+}
+.about {
+    border: 4px solid red;
+}
+.cv {
+    border: 4px solid silver;
+}
+.footer {
+    border: 4px solid black;
+}
