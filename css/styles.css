@@ -94,17 +94,26 @@ main {
 .contact {
     border: 4px solid blueviolet;
 }
+
+
+
 .links {
     border: 4px solid blue;
+    display: flex;
+    flex-wrap:wrap;
 }
+
 .GitHub {
     border: 3px dotted lightblue;
+    flex-grow: 1;
 }
 .CodePen {
     border: 3px dotted lightblue;
+    flex-grow: 1;
 }
 .LinkedIn {
     border: 3px dotted lightblue;
+    flex-grow: 1;
 }
 .about {
     border: 4px solid red;
