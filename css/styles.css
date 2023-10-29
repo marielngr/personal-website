@@ -20,5 +20,8 @@ main {
     border: 3px dashed orangered;
 }
 .contact {
-    border: 4px solid red;
+    border: 4px solid blueviolet;
+}
+.links {
+    border: 4px solid blue;
 }
