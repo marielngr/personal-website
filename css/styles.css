@@ -16,6 +16,10 @@ main {
     border: 4px solid lightsalmon;
 }
 
+.pic {
+    border: 3px solid black;
+}
+
 .tagcloud {
     border: 3px solid red;
 }
