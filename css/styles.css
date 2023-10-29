@@ -68,6 +68,7 @@ main {
 .pic {
     border: 3px dashed black;
     flex-grow: 1;
+    flex-basis: 50%;
 }
 
 .pic img{
