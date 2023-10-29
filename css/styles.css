@@ -55,7 +55,6 @@ h1 {
 
 main {
     border: 4px solid lightsalmon;
-    
 }
 
 .erstesDrittel {
@@ -98,23 +97,34 @@ main {
 
 
 .links {
-    border: 4px solid blue;
+   /* border: 4px solid blue;*/
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
+}
+
+.links figure {
+    /* border: 2px solid red;*/
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+
+.links figure img {
+    width: 100%;
 }
 
 .GitHub {
-    border: 3px dotted lightblue;
-    flex-grow: 1;
+    /*border: 3px dotted lightblue;*/
 }
+
 .CodePen {
-    border: 3px dotted lightblue;
-    flex-grow: 1;
+    /*border: 3px dotted lightblue;*/
 }
+
 .LinkedIn {
-    border: 3px dotted lightblue;
-    flex-grow: 1;
+    /*border: 3px dotted lightblue;*/
 }
+
+
 .about {
     border: 4px solid red;
 }
