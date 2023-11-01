@@ -102,8 +102,40 @@ main {
   /*border: 3px dashed orangered;*/
 }
 
+.interests ul {
+  /*border: 2px solid blue;*/
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  padding-right: 30px;
+  padding-bottom: 1rem;
+}
+
+.interests ul li {
+  margin-left: 2rem;
+}
+
 .favorites {
   /*border: 3px dashed orangered;*/
+}
+
+.favorites ul {
+  /*border: 2px solid blue;*/
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  padding-right: 30px;
+  padding-bottom: 1rem;
+}
+
+.favorites ul li {
+  margin-left: 2rem;
 }
 
 #contact {
