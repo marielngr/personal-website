@@ -151,6 +151,29 @@ main {
   border-top: 2px solid black;
   padding: 3rem;
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+  align-items: center;
+  font-style: oblique;
+}
+
+.centercontact {
+}
+
+.centercontact img {
+  border: 2px solid red;
+  flex-grow: 0;
+  flex-basis: 15%;
+  max-width: 4rem;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.centercontact p {
+  border: 2px solig green;
+  align-self: center;
 }
 
 .links {
