@@ -81,7 +81,7 @@ main {
 
 .pic div {
   background-image: url(https://picsum.photos/300);
-  border: 2px solid red;
+  /*border: 2px solid red;*/
   height: 50vh;
   max-height: 500px;
   background-repeat: no-repeat;
@@ -91,7 +91,8 @@ main {
 
 .tagcloud {
   /*border: 3px solid red;*/
-  background-color: rgb(247, 243, 243);
+  /*background-color: rgb(247, 243, 243);*/
+  /*background-color: aquamarine;*/
   flex-basis: 40%;
   flex-grow: 1;
   flex-shrink: 1;
@@ -116,6 +117,10 @@ main {
 
 .interests ul li {
   margin-left: 2rem;
+  border: 3px solid black;
+  color: white;
+  background-color: black;
+  margin-top: 2px;
 }
 
 .favorites {
@@ -136,6 +141,10 @@ main {
 
 .favorites ul li {
   margin-left: 2rem;
+  border: 3px solid black;
+  color: white;
+  background-color: black;
+  margin-top: 2px;
 }
 
 #contact {
