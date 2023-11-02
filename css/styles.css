@@ -61,7 +61,7 @@ main {
   margin: 0 auto;
 }
 
-.erstesDrittel {
+.firstpart {
   /* border: 3px solid brown;*/
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +162,10 @@ main {
   display: flex;
 }
 
+.contactstyle a:hover {
+  background-color: rgb(80, 142, 121);
+}
+
 .contactstyle img {
   /* border: 2px solid red; */
   flex-grow: 0;
@@ -176,6 +180,17 @@ main {
   align-self: center;
   margin-left: 2rem;
   margin-right: 2rem;
+  font-weight: bold;
+}
+
+.contactstyle p a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactstyle p a:hover {
+  color: rgb(80, 142, 121);
+  background-color: white;
 }
 
 .links {
