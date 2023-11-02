@@ -160,6 +160,7 @@ main {
 }
 
 .centercontact {
+  display: flex;
 }
 
 .centercontact img {
@@ -172,7 +173,7 @@ main {
 }
 
 .centercontact p {
-  border: 2px solig green;
+  border: 2px solid green;
   align-self: center;
 }
 
