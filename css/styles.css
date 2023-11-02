@@ -163,7 +163,7 @@ main {
 }
 
 .contactstyle a:hover {
-  background-color: rgb(80, 142, 121);
+  background-color: silver;
 }
 
 .contactstyle img {
@@ -189,7 +189,8 @@ main {
 }
 
 .contactstyle p a:hover {
-  color: rgb(80, 142, 121);
+  color: rgb(146, 144, 144);
+  /* color: rgb(80, 142, 121); */
   background-color: white;
 }
 
