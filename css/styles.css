@@ -204,6 +204,10 @@ main {
   margin-bottom: 2rem;
 }
 
+.links figure :hover {
+  background-color: silver;
+}
+
 .links figure {
   /* border: 2px solid red;*/
   flex-grow: 1;
@@ -214,13 +218,13 @@ main {
 .links figure img {
   width: 100%;
   /* border: 3px dotted lightblue; */
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 90px;
+  max-width: 90px;
 }
 
-.GitHub,
-.CodePen,
-.Linkedin {
+.Linkedin img {
+  border: 3px solid green;
+  /* max-height: 80px; --> soll etwas kleiner als die anderen beiden sein, funkt aber nicht*/
 }
 
 #about {
