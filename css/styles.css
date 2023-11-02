@@ -164,11 +164,11 @@ main {
   font-style: oblique;
 }
 
-.centercontact {
+.contactstyle {
   display: flex;
 }
 
-.centercontact img {
+.contactstyle img {
   border: 2px solid red;
   flex-grow: 0;
   flex-basis: 15%;
@@ -177,7 +177,7 @@ main {
   margin-right: 0px;
 }
 
-.centercontact p {
+.contactstyle p {
   border: 2px solid green;
   align-self: center;
 }
