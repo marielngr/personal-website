@@ -198,6 +198,9 @@ main {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
+  border-bottom: 2px solid black;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .links figure {
@@ -209,18 +212,14 @@ main {
 
 .links figure img {
   width: 100%;
+  /* border: 3px dotted lightblue; */
+  max-height: 100px;
+  max-width: 100px;
 }
 
-.GitHub {
-  /*border: 3px dotted lightblue;*/
-}
-
-.CodePen {
-  /*border: 3px dotted lightblue;*/
-}
-
-.LinkedIn {
-  /*border: 3px dotted lightblue;*/
+.GitHub,
+.CodePen,
+.Linkedin {
 }
 
 #about {
