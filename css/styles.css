@@ -57,6 +57,8 @@ h1 {
 
 main {
   /*border: 4px solid lightsalmon;*/
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .erstesDrittel {
@@ -97,6 +99,9 @@ main {
   flex-grow: 1;
   flex-shrink: 1;
   margin-left: 1rem;
+  /*  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-between; --> funktioniert iwie nicht */
 }
 
 .interests {
