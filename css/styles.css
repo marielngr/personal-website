@@ -106,10 +106,6 @@ main {
   align-content: space-between;
 }
 
-.interests {
-  /*border: 3px dashed orangered;*/
-}
-
 .interests ul {
   /*border: 2px solid blue;*/
   list-style-type: none;
@@ -128,10 +124,6 @@ main {
   color: white;
   background-color: black;
   margin-top: 2px;
-}
-
-.favorites {
-  /*border: 3px dashed orangered;*/
 }
 
 .favorites ul {
@@ -171,7 +163,7 @@ main {
 }
 
 .contactstyle img {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   flex-grow: 0;
   flex-basis: 15%;
   max-width: 4rem;
@@ -180,8 +172,10 @@ main {
 }
 
 .contactstyle p {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   align-self: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .links {
