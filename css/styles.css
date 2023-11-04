@@ -107,7 +107,7 @@ main {
   align-content: space-between;
 }
 
-.interests ul {
+.tagcloud section ul {
   /*border: 2px solid blue;*/
   list-style-type: none;
   display: flex;
@@ -117,36 +117,18 @@ main {
   padding-top: 1rem;
   padding-right: 30px;
   padding-bottom: 1rem;
+  padding-left: 0;
 }
 
-.interests ul li {
-  margin-left: 2rem;
+.tagcloud ul li {
+  margin-right: 2rem;
   border: 3px solid black;
   color: white;
   background-color: black;
   border-radius: 5px;
-  margin-top: 2px;
-}
-
-.skills ul {
-  /*border: 2px solid blue;*/
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-top: 1rem;
-  padding-right: 30px;
-  padding-bottom: 1rem;
-}
-
-.skills ul li {
-  margin-left: 2rem;
-  border: 3px solid black;
-  color: white;
-  background-color: black;
-  border-radius: 5px;
-  margin-top: 2px;
+  margin-top: 1rem;
+  width: 110px;
+  padding: 10px 10px;
 }
 
 #contact {
