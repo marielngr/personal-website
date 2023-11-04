@@ -235,18 +235,35 @@ main {
 }
 
 .box {
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  padding: 50px 80px;
+  padding: 40px 80px;
   background: rgb(225, 219, 219);
   border-radius: 15px;
   box-shadow: 5px 5px 19px 0px black;
+  position: relative;
   /* border: 2px solid red; */
+}
+
+.box h2 {
+  align-self: flex-start;
+  /* border: 2px solid blue; */
+  padding: 15px 15px;
+  position: relative;
+  left: -95px;
+  top: -25px;
+  background: aquamarine;
+  border-radius: 15px;
+  box-shadow: 3px 3px, -1rem 0 0.7em darkgray;
 }
 
 .box p {
   margin: 1rem;
+  position: relative;
+  top: -20px;
   /* border: 2px solid orange; */
 }
 
