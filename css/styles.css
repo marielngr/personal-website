@@ -216,10 +216,12 @@ main {
 }
 
 .links figure {
-  /* border: 2px solid red;*/
+  border: 2px solid red;
   flex-grow: 1;
   flex-basis: 33%;
   max-width: 10rem;
+  display: flex;
+  justify-content: center;
 }
 
 .links figure img {
