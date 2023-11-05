@@ -306,6 +306,15 @@ main {
   margin-bottom: 2rem;
 }
 
+.cv a {
+  text-decoration: none;
+  color: black;
+}
+
+.cv a:hover {
+  color: #83c1c2;
+}
+
 .footer {
   color: white;
   background-color: black;
