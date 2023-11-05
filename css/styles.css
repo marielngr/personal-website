@@ -216,25 +216,24 @@ main {
 }
 
 .links figure {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   flex-grow: 1;
   flex-basis: 33%;
   max-width: 10rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .links figure img {
   width: 100%;
   /* border: 3px dotted lightblue; */
-  max-height: 90px;
   max-width: 90px;
 }
 
 .linkedin img {
-  border: 3px solid green;
-  /* max-height: 80px;
-  width: 10px; --> soll eig. kleiner sein als andere beiden*/
+  /* border: 3px solid green; */
+  max-height: 65px;
 }
 
 .box {
